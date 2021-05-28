@@ -521,6 +521,11 @@ a{
     display: flex;
     justify-content:space-evenly;
 }
+@media screen and (max-width:692px) {
+    .clearfix{
+        flex-direction: column;
+    }
+}
 .main-button{
     border-radius: 10rem;
 }
